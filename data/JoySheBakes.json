@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "Brownies",
-    "price": 2.5,
+    "price": 2.50,
     "quantity": 1,
     "description": "Chocolate fudge brownies",
     "df": "Y",

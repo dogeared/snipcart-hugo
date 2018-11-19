@@ -6,6 +6,10 @@
         </div>
         <div class="card-stacked">
         <div class="card-content">
+            <p>${{ .price }} {{ if gt .quantity 1 }} for {{ .quantity }} {{ else }} each {{ end }}</p>
+            <p>can be dairy free: {{ .df }}</p>
+            <p>can be vegan: {{ .ve }}</p>
+            <p>can be gluten free: {{ .gf }}</p>
             <p>{{ .description }}</p>
         </div>
         <div class="card-action">
